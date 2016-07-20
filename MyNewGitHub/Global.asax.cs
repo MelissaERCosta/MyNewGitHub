@@ -12,6 +12,7 @@ namespace MyNewGitHub
     {
         protected void Application_Start()
         {
+            /* Hello world */
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
